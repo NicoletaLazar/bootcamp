@@ -1,0 +1,86 @@
+/*** Please replace the example styling rules below with your own styling rules ***/
+body {
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.container h1 {
+  font-weight: var(--font-weight-regular);
+}
+
+.navbar-custom {
+  background-color: #003C55;
+}
+
+#img {
+  width: 206px;
+  height: 42px;
+  flex-shrink: 0;
+}
+
+.text {
+  color: #FFF;
+  font-family: Open Sans;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.bottom-bar-text {
+  color: #FFF;
+  font-family: Open Sans;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+
+.navbar-bottom {
+  background: #707070;
+}
+
+#navbar-brand {
+  color: #FFF;
+  font-family: Open Sans;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  align: center;
+}
+
+.btn-primary {
+  width: 239px;
+  height: 47px;
+  flex-shrink: 0;
+  border-radius: 50px;
+  background: #FCD400;
+  align-self: right;
+}
+
+.btn {
+  align-self: right;
+}
+.fill-height{
+  padding-top: 150px;
+  padding-bottom: 150px;
+  background: #E41b13; 
+  min-height: 100%;
+  height:100vh;
+}
+
+#Excellent{
+ vertical-align: middle;
+ font-family: 'Georgia';
+ color: rgb(255, 255, 255); /*white text*/
+ font-weight: bold
+}

@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="./public/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nico Lazar</title>
+  <link href="bootstrap.min.css" rel="stylesheet">
+  <link href="formstyle.css" rel="stylesheet">
+</head>
+
+<body style="background: white;">
+
+  <nav class="navbar navbar-inverse navbar-custom">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="./public/assets/img/ddroidd_logo.svg" alt="" width="100" height="50">
+      </a>
+      <div class="mx-auto order-0">
+        <ul class="nav navbar-nav justify-content-md-center">
+          <li class="text">
+            <div style="color: #FFF" href="#">Autumn - Winter Bootcamp</div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container" style="background:#F4F5F8;width: 1374px; height: 550px; flex-shrink: 0;">
+    <div class="row"
+      style="color: #003C55; font-family: Open Sans; font-size: 48px; font-style: normal; font-weight: 700; line-height: normal;">
+      <div class="text-center d-flex align-items-center justify-content-center">Excellent!</div>
+    </div>
+    <div class="row"
+      style="color: #003C55; font-family: Open Sans; font-size: 48px; font-style: normal; font-weight: 700; line-height: normal">
+      <div class="text-center d-flex align-items-center justify-content-center">See you in November 2023!
+      </div>
+    </div>
+    <div class="row" style="padding-top: 40px; padding-bottom:30px;">Submission Summary:</div>
+    <div color: 000; font-family: Open Sans; font-size: 20px; font-style: normal; font-weight: 700; line-height:
+      normal;>
+      <div class="row" id="firstname">First name: John</div>
+      <div class="row" id="lastname">Last name: Doe</div>
+      <div class="row" id="phone">Phone number: +40711111111</div>
+      <div class="row" id="email">Email: johndoe@gmail.com</div>
+      <div class="row" id="address">Address: Lorem ipsum line 1, Lorem ipsum line 2</div>
+      <div class="row" id="country">Country: Romania</div>
+      <div class="row" id="state">State: none</div>
+      <div class="row" id="city">City: Cluj</div>
+    </div>
+  </div>
+
+  <nav class="navbar fixed-bottom navbar-bottom">
+    <div class="container-fluid justify-content-center">
+      <div class="navbar-brand" href="#"
+        style="color: #FFF; font-family: Open Sans; font-size: 25px; font-style: normal; font-weight: 400; line-height: normal;">
+        Come to the dark side... we have <img src="cookies.svg" width="20" height="20">
+      </div>
+    </div>
+  </nav>
+
+  <script>
+    var params = new window.URLSearchParams(window.location.search)
+    document.getElementById("firstname").innerHTML = "First name: " + params.get('firstname')
+    document.getElementById("lastname").innerHTML = "Last name: " + params.get('lastname')
+    document.getElementById("phone").innerHTML = "Phone number: " + params.get('phone')
+    document.getElementById("email").innerHTML = "Email: " + params.get('email')
+    document.getElementById("address").innerHTML = "Address: " + params.get('address1')
+    document.getElementById("country").innerHTML = "Country: " + params.get('country')
+    document.getElementById("state").innerHTML = "State: " + params.get('state')
+    document.getElementById("city").innerHTML = "City: " + params.get('city')
+
+  </script>
+</body>
+
+</html>

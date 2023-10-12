@@ -1,0 +1,80 @@
+/*** Please replace the example styling rules below with your own styling rules ***/
+body {
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.container h1 {
+  font-weight: var(--font-weight-regular);
+}
+
+.navbar-custom {
+  background-color: #003C55;
+}
+
+#img {
+  width: 206px;
+  height: 42px;
+  flex-shrink: 0;
+}
+
+.text {
+  color: #FFF;
+  font-family: Open Sans;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.bottom-bar-text {
+  color: #FFF;
+  font-family: Open Sans;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.navbar-btn {
+  width: 239px;
+  height: 47px;
+  flex-shrink: 0;
+  border-radius: 50px;
+  background: #FCD400;
+}
+
+.navbar-bottom {
+  background: #707070;
+}
+
+#navbar-brand {
+  color: #FFF;
+  font-family: Open Sans;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  align: center;
+}
+
+.yello-btn {
+  width: 239px;
+  height: 47px;
+  flex-shrink: 0;
+  border-radius: 50px;
+  background: #FCD400;
+  align: center
+}
+assets/img/destructuring.svg {
+  display: block;
+  max-width: 100%;
+  height: auto
+}
